@@ -33,7 +33,7 @@ async function run(): Promise<void> {
             return;
         }
 
-        if (utils.isExactKeyMatch(primaryKey, state)) {
+        if (false && utils.isExactKeyMatch(primaryKey, state)) {
             core.info(
                 `Cache hit occurred on the primary key ${primaryKey}, not saving cache.`
             );
